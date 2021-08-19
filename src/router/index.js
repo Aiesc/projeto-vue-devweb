@@ -10,7 +10,7 @@ const routes = [
     path: '/',
     component: () => import('@/layouts/Default'),
     meta: {
-      requiresAuth: false
+      requiresAuth: true
     },
     children: [
       {
